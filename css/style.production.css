@@ -6,7 +6,7 @@
 
 body {
   background-color: #5c5858;
-  font-family: "quicksand", sans-serif;
+  font-family: 'Overlock SC', cursive;
   font-size: 20px;
   line-height: 40px;
   color: #fff;
@@ -19,25 +19,49 @@ a {
 }
 
 a {
-  color: #000;
+  color: white;
 }
 
 nav {
   line-height: 20px;
-  color: #000;
+  color: white;
+}
+
+.flixology {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
 }
 
 a:visited {
-  color: rgb(5, 5, 5);
+  color: white;
 }
 
-a:hover, a:focus {
+.to-do {
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+
+.my-quiz {
+  text-align: center;
+  font-family: 'quicksand', sans-serif;
+}
+
+.poke-dex {
+  font-family: fantasy;
+}
+
+.anchor-align {
+  text-align: left;
+}
+
+a:hover,
+a:focus {
   text-decoration: none;
   text-shadow: 1px 1px 2px rgb(8, 8, 8);
 }
 
 li {
-  color: #000
+  color: #000;
 }
 
 button {
@@ -49,7 +73,8 @@ button {
   border-radius: 5px;
 }
 
-button:hover, button:focus {
+button:hover,
+button:focus {
   cursor: pointer;
   opacity: 0.3;
 }
@@ -88,6 +113,7 @@ button:hover, button:focus {
 
 .div-contact-alignment {
   text-align: center;
+  color: white;
 }
 
 .remove-bullets {
@@ -135,7 +161,7 @@ button:hover, button:focus {
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: rgb(167, 165, 165);
 }
 
 .grid {
@@ -176,7 +202,10 @@ button {
   transition: 0.2s opacity;
 }
 
-button:hover, button:focus, .button:hover, .button:focus {
+button:hover,
+button:focus,
+.button:hover,
+.button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
